@@ -18,7 +18,8 @@ const Home = ({ products, bannerData }) => {
           <Product key={product._id} product={product} />
         ))}
       </div>
-      <FooterBanner />
+      <FooterBanner footerbanner={bannerData.length && bannerData[0]} />
+      {console.log(bannerData)}
     </>
   );
 };
