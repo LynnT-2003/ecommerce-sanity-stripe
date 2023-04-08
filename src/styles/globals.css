@@ -433,7 +433,7 @@ padding: 30px 65px;
   transition: .3s ease-in-out;
 }
 .product-detail-image:hover{
-  background-color: #f02d34;
+  opacity: 75%;
 
 }
 .small-images-container{
@@ -546,7 +546,7 @@ padding: 6px;
 }
 
 .maylike-products-wrapper{
-  margin-top: 120px;
+  margin-top: 0px;
 }
 .maylike-products-wrapper h2{
   text-align: center;
