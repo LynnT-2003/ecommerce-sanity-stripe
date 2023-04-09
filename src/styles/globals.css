@@ -450,7 +450,7 @@ padding: 30px 65px;
 }
 
 .selected-image{
-  background-color:#f02d34;
+  opacity: 75%;
 }
 .reviews{
   color: #f02d34;
