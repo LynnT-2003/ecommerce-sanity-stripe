@@ -10,8 +10,8 @@ const Home = ({ products, bannerData }) => {
       <HeroBanner herobanner={bannerData.length && bannerData[0]} />
       {console.log(bannerData)}
       <div className="products-heading">
-        <h2>Best Selling Headphone</h2>
-        <p>Speakers of many variations</p>
+        <h2>Best Selling Products</h2>
+        <p>Explore our top-rated tech gear for an unparalleled experience.</p>
       </div>
       <div className="products-container">
         {products?.map((product) => (
