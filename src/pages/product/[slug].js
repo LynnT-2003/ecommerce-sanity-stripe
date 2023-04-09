@@ -20,7 +20,6 @@ const ProductDetails = ({ product, products }) => {
 
   return (
     <div>
-      {console.log("StateContext", useStateContext)}
       <div className="product-detail-container">
         <div>
           <div className="image-container">
@@ -66,7 +65,6 @@ const ProductDetails = ({ product, products }) => {
               </span>
               <span className="num" onClick="">
                 {qty}
-                {console.log("Quantity", qty)}
               </span>
               <span className="plus" onClick={incQty}>
                 <AiOutlinePlus />
@@ -127,8 +125,6 @@ export const getStaticProps = async ({ params: { slug } }) => {
 
   const product = await client.fetch(query);
   const products = await client.fetch(productsQuery);
-
-  console.log(product);
 
   return { props: { products, product } };
 };
