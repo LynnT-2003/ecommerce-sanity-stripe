@@ -29,7 +29,7 @@ const ProductDetails = ({ product, products }) => {
               <img
                 src={urlFor(item)}
                 className={
-                  i == index ? "small-image selected-image" : "small-image"
+                  i === index ? "small-image selected-image" : "small-image"
                 }
                 onMouseEnter={() => setIndex(i)}
               />
