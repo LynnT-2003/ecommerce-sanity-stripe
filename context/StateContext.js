@@ -30,6 +30,7 @@ export const StateContext = ({ children }) => {
             ...cartProduct,
             quantity: cartProduct.quantity + quantity,
           };
+        return cartProduct; // This line was missing, add this line
       });
 
       setCartItems(updatedCartItems);
