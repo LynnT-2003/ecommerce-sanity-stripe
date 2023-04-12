@@ -36,10 +36,9 @@ To get started with the e-commerce website, clone the repository to your local m
   npm install
 ```
 
-````bash
-  npm run dev
 ```bash
-
+  npm run dev
+```
 
 This will install the necessary dependencies and start the development server. You will also need to set up a Stripe account and add your API keys to the `.env` file in the root directory.
 
@@ -53,9 +52,10 @@ Contributions to the project are welcome! If you notice any bugs or have any sug
 
 The e-commerce website was built by [Lynn](https://github.com/LynnT-2003) as part of a summer portfolio of projects. Check out some of my awesome other projects at [https://github.com/LynnT-2003?tab=repositories](https://github.com/LynnT-2003?tab=repositories).
 
-
 ## License
 
 The e-commerce website is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-````
+```
+
+```
