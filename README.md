@@ -1,38 +1,61 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# E-commerce Website
+
+## Description
+
+This project is an e-commerce website that allows users to browse and purchase products using the Stripe payment processing API. The website was built during the summer as part of a portfolio of projects.
+
+## Tech Stack
+
+### Frontend
+
+- React: A popular JavaScript library for building user interfaces
+- React Router: A library for adding client-side routing to React apps
+- Styled Components: A CSS-in-JS library for styling React components
+
+### Backend
+
+- Sanity.io: A cloud-based CMS for managing structured content across platforms and devices
+- Stripe: A payment processing API for securely accepting and processing payments
+- Serverless functions: AWS Lambda functions that run code in response to specific events, used for handling Stripe payments
+
+## Features
+
+- Browse products by category or search for specific products
+- View detailed product information, including images, descriptions, and prices
+- Add products to a shopping cart and update quantities as needed
+- Securely process payments using the Stripe payment processing API
+- Receive confirmation of successful orders via email
+
 ## Getting Started
 
-First, run the development server:
+To get started with the e-commerce website, clone the repository to your local machine and run the following commands:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+````bash
+  npm run dev
+```bash
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This will install the necessary dependencies and start the development server. You will also need to set up a Stripe account and add your API keys to the `.env` file in the root directory.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions to the project are welcome! If you notice any bugs or have any suggestions for new features, please submit an issue or a pull request.
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
+## Credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The e-commerce website was built by [Lynn](https://github.com/LynnT-2003) as part of a summer portfolio of projects. Check out some of my awesome other projects at [https://github.com/LynnT-2003?tab=repositories](https://github.com/LynnT-2003?tab=repositories).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The e-commerce website is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+````
