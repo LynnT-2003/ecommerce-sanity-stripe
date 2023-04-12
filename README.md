@@ -55,7 +55,3 @@ The e-commerce website was built by [Lynn](https://github.com/LynnT-2003) as par
 ## License
 
 The e-commerce website is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-```
-
-```
